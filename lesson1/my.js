@@ -132,6 +132,7 @@ console.log(b1);
 
 let x2 = 10;
 let y2 = 5 + (6 - 2) * --x2;
+ y2 = 5 + (6 - 2) * x2--;
 console.log(y2); //41
 
 let a2 = 23;
@@ -152,7 +153,7 @@ console.log(result1); // false
 const money = 1000;
 const age = 21;
 // проверяем, что age больше 18 и money больше 100
-const access1 = age > 18 && money > 100;
+const access1 = (age > 18) && (money > 100);
 console.log(access1); // true
  
 // проверяем, что age больше 18 и money больше 1000
