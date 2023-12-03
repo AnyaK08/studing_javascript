@@ -27,6 +27,11 @@ console.log(number1);
 const number2 = parseInt(0.0000005);  // 5
 console.log(number2);
 Не поняла почему в первом случае ноль а во втором 5 
+11. if (myVar !== undefined && myVar !== null) {
+    console.log(`Переменная myVar имеет значение: ${myVar}`);
+}
+Не совсем поняла что происходит в єтом случае
+
 
 
 
